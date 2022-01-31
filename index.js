@@ -20,7 +20,7 @@ client.on('messageCreate', (msg) => {
             .setColor("388e3c")
             .setTitle('Ticket')
             .setDescription(`K vytvoření ticketu klikni na 📩`)
-            .setFooter(`terezkajesexy.xyz - Ticketing without clutter`, client.user.avatarURL({dynamic: true}))
+            .setFooter(`TicketTool.xyz - Ticketing without clutter`, client.user.avatarURL({dynamic: true}))
         msg.channel.send({
             embeds: [embed],
             components: [row]
